@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálogo de modelos e preços de relógios Áurea.">
+    <title>Áurea Relógios</title>
+    <link rel="stylesheet" href="aurea.css">
+</head>
+<body>
+    <!-- Cabeçalho com links para as seções -->
+    <header id="inicio">
+        <h1>Áurea</h1>
+        <p>Seu próximo relógio começa aqui.</p>
+        <nav aria-label="Menu principal">
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Catálogo</h2>
+            <p class="introducao">Conheça nossos modelos e confira os preços.</p>
+            <!-- A div agrupa os cartões; cada article representa um produto. -->
+            <div class="lista-produtos">
+                <article class="produto">
+                    <img src="imagens/atlantic.jpg" alt="Relógio Atlantic" width="250" height="250">
+                    <h3>Relógio Atlantic</h3>
+                    <p>Um modelo clássico para acompanhar sua rotina.</p>
+                    <p class="preco">R$ 6.767,67</p>
+                    <a class="botao" href="#contato">Consultar disponibilidade</a>
+                </article>
+                <article class="produto">
+                    <img src="imagens/verona.jpg" alt="Relógio Verona" width="250" height="250">
+                    <h3>Relógio Verona</h3>
+                    <p>Uma escolha para completar o visual em ocasiões especiais.</p>
+                    <p class="preco">R$ 4.999,99</p>
+                    <a class="botao" href="#contato">Consultar disponibilidade</a>
+                </article>
+                <article class="produto">
+                    <img src="imagens/eclipse.jpg" alt="Relógio Eclipse" width="250" height="250">
+                    <h3>Relógio Eclipse</h3>
+                    <p>Um visual marcante para diferentes momentos do dia.</p>
+                    <p class="preco">R$ 5.999,99</p>
+                    <a class="botao" href="#contato">Consultar disponibilidade</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="sobre" class="informacoes">
+            <h2>Sobre a Áurea</h2>
+            <p>A Áurea é uma proposta de loja de relógios para quem gosta de combinar estilo e praticidade. Nosso catálogo reúne modelos, fotos e preços em um só lugar para facilitar sua escolha.</p>
+            <p>Este site é um projeto escolar de HTML e CSS. A loja e os valores são demonstrativos e não realizamos vendas por esta página.</p>
+        </section>
+
+        <section id="contato" class="informacoes">
+            <h2>Contato</h2>
+            <p>Em uma loja real, esta área seria usada para tirar dúvidas sobre os modelos e consultar a disponibilidade.</p>
+            <p><strong>E-mail de exemplo:</strong> contato@aurea.example</p>
+            <p>Os dados são fictícios para a apresentação do projeto.</p>
+            <!-- details abre e fecha a resposta sem precisar de JavaScript. -->
+            <details>
+                <summary>Posso comprar pelo site?</summary>
+                <p>Não. Esta página é um catálogo demonstrativo. Os links dos produtos levam até esta seção de contato.</p>
+            </details>
+            <details>
+                <summary>Como encontro os modelos?</summary>
+                <p>Use o menu Produtos para acessar o catálogo e comparar as fotos, os nomes e os preços.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>Áurea Relógios — Projeto escolar</p>
+        <a href="#inicio">Voltar ao início</a>
+        <p>&copy; 2026 Áurea.</p>
+    </footer>
+</body>
+</html>

@@ -22,7 +22,7 @@ O projeto reúne essas informações em um catálogo organizado, facilitando a c
 
 Foi desenvolvido para praticar a estruturação de páginas com HTML, a estilização com CSS, a responsividade e a documentação de projetos.
 
-*Este é um projeto escolar. A loja, os preços e os dados de contato são demonstrativos. O site não realiza vendas.*
+
 
 ## Objetivos
 

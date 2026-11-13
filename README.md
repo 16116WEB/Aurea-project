@@ -1,141 +1,138 @@
-# Áurea Relógios
+## Áurea Relógios
 
 Catálogo demonstrativo de relógios desenvolvido como projeto escolar em HTML e CSS.
 
-## Identificação
-
-- **Integrantes:**
-  - João Augusto dos Anjos Nolasco
-  - Daniel Heitor Silva Cortes
-  - Davi Jelinuir Neves
 - **Curso:** Informática para Internet
 - **Turma:** IFTP
 - **Unidade curricular:** Versionamento e colaboração
 - **Professor:** Josué Rodrigo Evangelista Figueirêdo
 - **Data:** 13/11/2026
 
-## Sobre o projeto
+## Integrantes
 
-A Áurea é uma proposta de loja de relógios apresentada em um site de página única. O catálogo reúne os modelos Atlantic, Verona e Eclipse, com imagens, descrições e preços.
+- João Augusto dos Anjos Nolasco
+- Daniel Heitor Silva Cortes
+- Davi Jelinuir Neves
 
-O projeto foi desenvolvido para praticar a estruturação de páginas com HTML, a estilização com CSS e a criação de layouts responsivos, além da organização e documentação de código.
+## Apresentação do projeto
 
-> Este é um projeto escolar. A loja, os valores e os dados de contato são demonstrativos. Não são realizadas vendas pelo site.
+A **Áurea Relógios** é um site de página única que apresenta três modelos de relógios: Atlantic, Verona e Eclipse. Cada produto possui imagem, nome, descrição e preço.
+
+O projeto reúne essas informações em um catálogo organizado, facilitando a consulta e a comparação dos modelos.
+
+Foi desenvolvido para praticar a estruturação de páginas com HTML, a estilização com CSS, a responsividade e a documentação de projetos.
+
+*Este é um projeto escolar. A loja, os preços e os dados de contato são demonstrativos. O site não realiza vendas.*
 
 ## Objetivos
 
-- Organizar fotos, nomes, descrições e preços em um único catálogo.
-- Facilitar a consulta e a comparação dos modelos apresentados.
-- Oferecer navegação simples entre as seções da página.
-- Adaptar a apresentação do conteúdo a computadores e celulares.
-- Aplicar os conhecimentos adquiridos no projeto de front-end.
+- Organizar fotos, descrições e preços em uma única página.
+- Facilitar a consulta e a comparação dos relógios.
+- Oferecer navegação simples entre as seções.
+- Adaptar a apresentação para computadores e celulares.
+- Aplicar conhecimentos de HTML, CSS e versionamento de código.
 
 ## Funcionalidades
 
-- **Catálogo:** apresentação de três relógios com fotos, descrições e preços.
-- **Navegação interna:** menu com acesso às seções Produtos, Sobre e Contato.
-- **Consulta de disponibilidade:** botões que levam à seção de contato, sem consultar estoque ou enviar mensagens.
-- **Apresentação da loja:** seção que explica a proposta da Áurea.
-- **Contato demonstrativo:** informações ilustrativas com e-mail fictício.
-- **Perguntas frequentes:** respostas que podem ser abertas e fechadas.
-- **Retorno ao início:** link disponível no rodapé.
-- **Responsividade:** reorganização dos cartões e ajustes de estilo conforme o tamanho da tela.
+- **Catálogo:** apresenta três modelos com imagens, descrições e preços.
+- **Menu de navegação:** permite acessar as seções Produtos, Sobre e Contato.
+- **Botões de consulta:** direcionam o usuário à seção de contato.
+- **Seção Sobre:** explica a proposta da loja e o caráter escolar do projeto.
+- **Contato demonstrativo:** apresenta um endereço de e-mail fictício.
+- **Perguntas frequentes:** permite abrir e fechar respostas.
+- **Retorno ao início:** disponibiliza um link no rodapé.
+- **Layout responsivo:** reorganiza os produtos conforme o tamanho da tela.
 
-O site não possui cadastro, login, carrinho de compras, pagamentos ou banco de dados.
+**Os botões de consulta não verificam estoque nem enviam mensagens.** O site não possui cadastro, login, carrinho, pagamento ou banco de dados.
+
+---
 
 ## Tecnologias utilizadas
 
 | Tecnologia ou ferramenta | Finalidade |
 | --- | --- |
 | HTML5 | Estrutura e conteúdo da página |
-| CSS3 | Estilização, Flexbox e responsividade |
+| CSS3 | Estilização e responsividade |
 | Visual Studio Code | Edição dos arquivos |
-| Git | Versionamento local do projeto |
-| JPEG | Formato das imagens dos produtos |
+| Git | Versionamento do código |
+| GitHub | Armazenamento e compartilhamento do projeto |
+| JPEG | Formato das imagens dos relógios |
 
-As perguntas frequentes utilizam os elementos nativos `<details>` e `<summary>` do HTML. A aplicação não utiliza JavaScript ou bibliotecas externas.
+O layout utiliza **Flexbox** e **media queries** para ajustar a apresentação dos elementos.
+
+As perguntas frequentes utilizam os elementos nativos `<details>` e `<summary>` do HTML, sem necessidade de JavaScript.
 
 ## Estrutura do projeto
 
 ```text
-Aurea_Projeto/
-├── index.html
-├── aurea.css
+Aurea-project/
 ├── imagens/
 │   ├── atlantic.jpg
-│   ├── verona.jpg
-│   └── eclipse.jpg
-├── .vscode/
-│   └── launch.json
+│   ├── eclipse.jpg
+│   └── verona.jpg
 ├── README.md
-└── documentacao/
-    ├── Documentacao_Aurea_Projeto.docx
-    ├── 01_catalogo.png
-    ├── 02_sobre_contato.png
-    ├── 03_celular.png
-    └── gerar_documentacao.py
+├── aurea.css
+└── index.html
 ```
 
-- **`index.html`:** contém o cabeçalho, o catálogo, as seções informativas e o rodapé.
-- **`aurea.css`:** define cores, fontes, espaçamentos, cartões e ajustes para diferentes telas.
-- **`imagens/`:** armazena as fotografias dos relógios.
-- **`.vscode/launch.json`:** configura a depuração no editor para o endereço `http://localhost:8080`. Não inicia um servidor automaticamente.
-- **`README.md`:** apresenta a documentação do projeto.
-- **`documentacao/`:** reúne o documento da atividade, as capturas de tela e o script auxiliar de geração da documentação. Esse script não é necessário para executar o site.
+| Arquivo ou pasta | Descrição |
+| --- | --- |
+| index.html | Contém a estrutura e o conteúdo da página |
+| aurea.css | Define cores, fontes, espaçamentos e responsividade |
+| imagens/ | Armazena as fotografias dos produtos |
+| imagens/atlantic.jpg | Fotografia do relógio Atlantic |
+| imagens/eclipse.jpg | Fotografia do relógio Eclipse |
+| imagens/verona.jpg | Fotografia do relógio Verona |
+| README.md | Apresenta a documentação do projeto |
 
-## Como executar
+## Como executar o projeto
 
-### Abertura direta
+É necessário apenas um navegador, como Google Chrome, Microsoft Edge ou Firefox.
 
-1. Tenha a pasta completa do projeto no computador.
-2. Mantenha os arquivos e as pastas na estrutura apresentada acima.
-3. Abra o arquivo `index.html` em um navegador.
-4. Utilize o menu para navegar pelas seções e clique nas perguntas frequentes para visualizar as respostas.
+1. Acesse o repositório do projeto.
+2. Clique em **Code** e depois em **Download ZIP**.
+3. Extraia o arquivo baixado.
+4. Abra a pasta do projeto.
+5. Abra o arquivo `index.html` no navegador.
+6. Utilize o menu para navegar pelas seções e clique nas perguntas frequentes para visualizar as respostas.
 
-Não é necessário instalar dependências ou configurar banco de dados.
+**Mantenha o arquivo `aurea.css` e a pasta `imagens` na organização original para que os estilos e as fotos sejam carregados corretamente.**
 
-### Servidor local opcional
+Não é necessário instalar dependências, compilar arquivos ou configurar banco de dados.
 
-Se você já tiver o Python instalado, abra um terminal na pasta principal do projeto e execute:
+---
 
-```bash
-python -m http.server 8080
-```
+## Imagens dos produtos
 
-Depois, acesse:
+### Relógio Atlantic
 
-```text
-http://localhost:8080
-```
+![Relógio Atlantic](imagens/atlantic.jpg)
 
-Para encerrar o servidor, pressione `Ctrl+C`.
+*Modelo apresentado no catálogo com descrição e preço demonstrativo.*
 
-## Demonstração
+### Relógio Eclipse
 
-### Catálogo em computador
+![Relógio Eclipse](imagens/eclipse.jpg)
 
-![Cabeçalho e catálogo com os três modelos de relógios](documentacao/01_catalogo.png)
+*Modelo com visual marcante, apresentado entre as opções do catálogo.*
 
-Apresentação dos modelos Atlantic, Verona e Eclipse, com imagens, descrições, preços e botões de consulta.
+### Relógio Verona
 
-### Sobre, contato e perguntas frequentes
+![Relógio Verona](imagens/verona.jpg)
 
-![Seções Sobre e Contato com uma pergunta frequente expandida](documentacao/02_sobre_contato.png)
-
-Informações sobre o projeto, contato demonstrativo e resposta de uma pergunta frequente.
-
-### Visualização em celular
-
-![Catálogo adaptado a uma tela de celular](documentacao/03_celular.png)
-
-Apresentação do menu e dos produtos em uma tela com largura de 390 pixels.
+*Modelo apresentado como uma opção para ocasiões especiais.*
 
 ## Melhorias futuras
 
-- Implementar busca por nome e filtros por faixa de preço.
-- Criar páginas com especificações detalhadas de cada relógio.
-- Adicionar um formulário de contato com validação e envio de mensagens.
-- Aprimorar a acessibilidade com testes de contraste e navegação por teclado.
-- Otimizar as imagens para reduzir o tempo de carregamento.
+1. Adicionar uma busca por nome dos relógios.
+2. Implementar filtros por faixa de preço.
+3. Criar páginas com especificações detalhadas dos produtos.
+4. Adicionar um formulário de contato com validação e envio de mensagens.
+5. Aprimorar a acessibilidade com testes de contraste e navegação por teclado.
+6. Otimizar as imagens para melhorar o carregamento.
 
-Essas melhorias são propostas e ainda não estão implementadas.
+*Essas melhorias são propostas para versões futuras e ainda não estão implementadas.*
+
+## Repositório
+
+[Acessar o projeto no GitHub](https://github.com/16116WEB/Aurea-project)

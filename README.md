@@ -133,6 +133,4 @@ Não é necessário instalar dependências, compilar arquivos ou configurar banc
 
 *Essas melhorias são propostas para versões futuras e ainda não estão implementadas.*
 
-## Repositório
 
-[Acessar o projeto no GitHub](https://github.com/16116WEB/Aurea-project)
